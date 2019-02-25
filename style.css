@@ -88,7 +88,7 @@ table {
 }
 
 .header-picture {
-    background: url("/images/header-picture_01.jpg");
+    background: url("./images/header-picture_01.jpg");
     height: 1080px;
     width: 1920px;
 }
@@ -423,7 +423,7 @@ table {
 .large-drone {
     height: 690px;
     width: 1920px;
-    background: url("/images/large-drone_03.jpg") no-repeat 100% 50%;
+    background: url("./images/large-drone_03.jpg") no-repeat 100% 50%;
 }
 
 .description-text h1 {
@@ -616,7 +616,7 @@ table {
 .nature {
     height: 639px;
     width: 1920px;
-    background: url("/images/nature-pic1_02.jpg") no-repeat 0% 50% #f6f6f6;
+    background: url("./images/nature-pic1_02.jpg") no-repeat 0% 50% #f6f6f6;
 }
 
 .nature-info {
@@ -672,7 +672,7 @@ table {
 .city {
     height: 641px;
     width: 1920px;
-    background: url("/images/city-view_06.jpg") no-repeat 100% 50% #f6f6f6;
+    background: url("./images/city-view_06.jpg") no-repeat 100% 50% #f6f6f6;
 }
 
 .city-info {
@@ -728,7 +728,7 @@ table {
 .submit-form {
     height: 489px;
     width: 1920px;
-    background: url("/images/road_02.jpg") no-repeat 50% 50%;
+    background: url("./images/road_02.jpg") no-repeat 50% 50%;
     background-size: cover;
     text-align: center;
 }
@@ -779,7 +779,7 @@ table {
 .map {
     height: 603px;
     width: 1920px;
-    background: url("/images/map_08.jpg") no-repeat 50% 50%;
+    background: url("./images/map_08.jpg") no-repeat 50% 50%;
     background-size: cover;
 }
 
