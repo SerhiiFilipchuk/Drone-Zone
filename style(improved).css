@@ -264,21 +264,20 @@ body {
 }
 
 .feature {
-    display: inline-block;
     height: 232px;
     width: 25%;
     vertical-align: top;
+    display: flex;
+    flex-direction: column;
 }
 
 .feature-img {
-    display: block;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 16px;
 }
 
 .feature-mane {
-    display: inline-block;
     color: #cb0035;
     font-size: 30px;
     text-align: center;
@@ -291,6 +290,7 @@ body {
 }
 
 .feature-description {
+    display: inline-block;
     color: #5e6372;
     font-size: 18px;
     text-align: center;
@@ -448,4 +448,90 @@ body {
     margin-bottom: 59px;
 }
 
+/* 6th block with submit form */
+
+
+.submit-form {
+    height: 489px;
+    background: url("./images/road.jpg") no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.submit-form h2 {
+    padding-top: 160px;
+    font-size: 48px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 46px;
+}
+
+.contact-form-email {
+    display: inline-block;
+    height: 50px;
+    width: 300px;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 30%);
+    border-radius: 50px;
+    outline: none;
+    background-color: rgba(232, 143, 146, 30%);
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.contact-form-send {
+    vertical-align: top;
+    display: inline-block;
+    height: 50px;
+    border-radius: 50px;
+    color: #d32721;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    border: none;
+    padding: 0 47px;
+    background: #fff;
+    margin-left: -50px;
+}
+
+.contact-form-send:hover {
+    cursor: pointer;
+}
+
+/* 6th block with a map*/
+
+.map {
+    height: 603px;
+    background: url("./images/map.jpg") no-repeat;
+    background-size: cover;
+}
+
+/* 7th block - footer*/
+
+.footer {
+    background: #fff;
+}
+
+.footer-text {
+    padding: 68px 0;
+}
+
+.footer-text p {
+    font-size: 18px;
+    line-height: 36px;
+    color: #a7acbc;
+    text-align: center;
+    font-weight: 300;
+    font-style: normal;
+    padding-bottom: 19px;
+}
+
+.footer-text span {
+    font-weight: normal;
+    font-style: normal;
+}
 
