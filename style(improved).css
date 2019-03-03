@@ -89,9 +89,10 @@ body {
 
 .wrapper {
     margin-left: auto;
-    margin-top: auto;
+    margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    width: 1325px;
 }
 
 .header-picture {
@@ -186,11 +187,11 @@ body {
     padding: 0 53px 0 54px;
     vertical-align: top;
     line-height: 50px;
+    border: 1px solid #ffffff;
 }
 
 .ask-for-price:hover {
     background-image: linear-gradient(100deg,#e17210, #cb0035 100%);
-    border: 1px solid #ffffff;
     color: #ffffff;
 }
 
@@ -246,3 +247,205 @@ body {
     font-weight: 300;
     font-style: normal;
 }
+
+/* drone features, quick facts + icons*/
+
+.drone-features {
+    background: #f6f6f6;
+    border-top: 2px solid #ffffff;
+    height: 598px;
+}
+
+.all-features {
+    padding: 113px 0 0 0;
+    margin-bottom: 104px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature {
+    display: inline-block;
+    height: 232px;
+    width: 25%;
+    vertical-align: top;
+}
+
+.feature-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 16px;
+}
+
+.feature-mane {
+    display: inline-block;
+    color: #cb0035;
+    font-size: 30px;
+    text-align: center;
+    padding: 0 0 19px 0;
+    font-weight: bold;
+    font-style: normal;
+    background: -webkit-linear-gradient(right, #e17210, #cb0035);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.feature-description {
+    color: #5e6372;
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 30px;
+}
+
+.features-blue-button {
+    text-align: center;
+}
+
+.ask-for-price-blue {
+    color: #ffffff;
+    padding: 0 54px 0 53px;
+    line-height: 50px;
+    background-color: #264699;
+    background-image: linear-gradient(208deg, #4964a9 0%, #264699 100%);
+}
+
+.ask-for-price-blue:hover {
+    background-color: #cb0035;
+    background-image: linear-gradient(100deg, #264699 0%, #cb0035 100%);
+}
+
+/*3rd block with drone large image*/
+
+.large-drone {
+    height: 690px;
+    background: url("./images/large-drone.jpg") no-repeat 100% 50%;
+}
+
+.section-name {
+    display: inline-block;
+    font-size: 48px;
+    line-height: 36px;
+    color: #cb0035;
+    text-align: left;
+    font-weight: bold;
+    font-style: normal;
+    background: -webkit-linear-gradient(right, #e17210, #cb0035);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.large-drone-text .section-name {
+    margin-bottom: 32px;
+}
+
+.large-drone-text {
+    padding: 121px 0 32px 0;
+}
+
+.section-description {
+    color: #5e6372;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 36px;
+}
+
+.large-drone-list .list-left {
+    float: left;
+    height: 277px;
+    width: 454px;
+    margin-right: 32px;
+    padding: 0;
+}
+
+.large-drone-list .list-item {
+    padding: 0;
+    margin-bottom: 52px;
+}
+
+.list-item span {
+    float: left;
+    display: block;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #c7cde0;
+    border-radius: 100px;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    color: #3f4e76;
+    font-weight: normal;
+    font-style: normal;
+    margin-right: 32px;
+}
+
+.list-item p {
+    font-size: 14px;
+    color: #a7acbc;
+    line-height: 24px;
+}
+
+.large-drone-list .list-right {
+    float: left;
+    height: 277px;
+    width: 454px;
+    padding: 0;
+}
+
+.clearfix:after {
+    content:'';
+    clear: both;
+    display: block;
+}
+
+/* 4th block with the sea large pic*/
+
+.nature {
+    height: 639px;
+    background: url("./images/nature-pic.jpg") no-repeat #f6f6f6;
+    background-size: 50% 100%;
+}
+
+.nature-text {
+    height: 262px;
+    width: 560px;
+    padding-top: 179px;
+    padding-right: 26px;
+    float: right;
+}
+
+.nature-text .section-name {
+    margin-bottom: 33px;
+}
+
+.nature-text p {
+    margin-bottom: 59px;
+}
+
+/* 5th block with the city large pic*/
+
+
+.city {
+    height: 641px;
+    background: url("./images/city-view.jpg") no-repeat 100% #f6f6f6;
+    background-size: 50% 100%;
+}
+
+.city-text {
+    height: 262px;
+    width: 563px;
+    padding-top: 169px;
+}
+
+.city-text .section-name {
+    line-height: 50px;
+    margin-bottom: 24px;
+}
+
+.city-text p {
+    margin-bottom: 59px;
+}
+
+
